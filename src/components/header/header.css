@@ -1,0 +1,116 @@
+.header{
+    background-color: #003580;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    height: 200px;
+    margin: 20px 0px 100px 0px;
+}
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+    height: 130px;
+}
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.headerListItem{
+   gap: 10px;
+    align-items: center;
+    display: flex;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+}
+.headerListItem.active{
+    border: 1px solid white;
+    border-radius: 18px;
+    padding: 10px;
+}
+.headerDec{
+    margin: 20px 0px;
+}
+.headerBtn{
+    background-color: #3c76c9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+}
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    border: 3px solid yellowgreen;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -21px;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerIcon{
+    color: lightgray;
+}
+.headerSearchItem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.headerSearchInput{
+    border: none;
+    outline:none;
+}
+.headerSearchTxt{
+color: lightgray;
+cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 45px;
+    z-index: 2;
+}
+.options{
+    background-color: white;
+    color: grey;
+    position: absolute;
+    top: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+z-index: 2;
+}
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionTxt{
+    font-size: 13px;
+}
+.optionCounter{
+display: flex;
+gap: 10px;
+align-items: center;
+font-size: 12px;
+}
+.optionCounterBtn{
+    width: 28px;
+    height: 28px;
+}
+.optionCounterBtn:disabled{
+    cursor: not-allowed;
+}

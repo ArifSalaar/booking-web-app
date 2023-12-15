@@ -1,0 +1,25 @@
+.featured{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    max-width: 1024px;
+    z-index: 1;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.featuredItem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+}
+.featuredImg{
+    width: 100%;
+    object-fit: cover;  
+}
+.featuredTitle{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
